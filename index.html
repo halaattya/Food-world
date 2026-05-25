@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Food World</title>
+</head>
+
+<body>
+
+    <h1>🍽️ Food World</h1>
+
+    <form id="main-form">
+        <label for="operation">OP:</label>
+        <select id="operation">
+            <option value="">Please select an operation</option>
+            <option value="add">Add</option>
+            <option value="delete">Delete</option>
+            <option value="edit">Edit</option>
+        </select>
+        <button type="submit" class="non" id="action-btn">Go</button>
+    </form>
+
+    <div id="extra-controls"></div>
+
+    <div id="food-grid" class="grid"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
